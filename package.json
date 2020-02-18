@@ -1,0 +1,32 @@
+{
+  "name": "dummy-http-server",
+  "version": "1.0.0",
+  "author": "Lars Brandt",
+  "license": "GPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zebrajaeger/dummy-http-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zebrajaeger/dummy-http-server/issues"
+  },
+  "homepage": "https://github.com/zebrajaeger/dummy-http-server",
+  "scripts": {
+    "start": "node ./index.js",
+    "d": "npm start"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "morgan": "~1.9.1",
+    "yargs": "^15.1.0"
+  },
+  "bin": {
+    "dhs": "./bin/dhs.js",
+    "dummy-http-server": "./bin/dhs.js"
+  }
+}
