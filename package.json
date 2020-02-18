@@ -1,5 +1,5 @@
 {
-  "name": "dummy-http-server",
+  "name": "@zebrajaeger/dummy-http-server",
   "version": "1.0.0",
   "author": "Lars Brandt",
   "license": "GPL-3.0-or-later",
