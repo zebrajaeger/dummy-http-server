@@ -12,7 +12,7 @@ Logs incoming requests (GET,POST,...) to console and returns 200.
 
 Exec 
 
-    dht
+    dhs
 
 or
 
@@ -23,7 +23,7 @@ into terminal.
 Default port is 2999.
 change ist wit -p or --port option:
 
-    dht -p 1234
+    dhs -p 1234
 
 ## Stop
 
